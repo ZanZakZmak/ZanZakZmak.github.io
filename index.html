@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--css bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Osobna web stranica Asterix</title>
+  </head>
+  <body class="stranica">
+    <div class="container">
+      <div class="devider-top"></div>
+      <!-- Stack the columns on mobile by making one full-width and the other half-width -- text-center-->
+      <div class="row osobni-info">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-4 avatar">
+              <img
+                src="assets/asterix-icon.png"
+                class="img-thumbnail"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8 row align-items-center lista-atributa">
+              <h1 class="bijeli">Asterix</h1>
+              <ul class="fs-2 bijeli">
+                <li>Ja sam najači ratnik u galskom selu</li>
+                <li>Isto tako sam najmudriji ratnik</li>
+                <li>Dan rođenja 35 BC</li>
+                <li>Hobi mi je lov veprova</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+
+      <div class="row friends">
+        <h2 class="bijeli">Seljani sa kojima živim</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="assets/Obelix.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Obelix</h5>
+                <p class="card-text">
+                  Najbolji prijatelj Asterixa, također najjači gal u selu
+                  povodom toga što je upa u čarobni napitak kao mali. On u selu
+                  oblikuje i prenosi menhire.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/Čudomix.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Čudomix</h5>
+                <p class="card-text">
+                  Čudomix je druid sela, također je i jedan od najvećih druida
+                  galije. Zahvaljujući njegovom čarobnom napitku Gali se i dalje
+                  odupiru Rimljanima.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/Vrhovnix.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Vrhovnix</h5>
+                <p class="card-text">
+                  Ovo je poglavica sela, uvijek se kreće po selu sa svojim
+                  štitonošama.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/Tamburix.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Tamburix</h5>
+                <p class="card-text">
+                  on je lokalni muzičar sela , ali njegova pjesma stvarno ruši
+                  sve slušatelje s nogu. na kraju dana često završi zavezan za
+                  stablo zahvaljujući svojim muzičkim talentima.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Columns are always 50% wide, on mobile and desktop -->
+
+      <div class="row lokacije bijeli">
+        <h2>Zanimljive lokacije za posjetiti u galiji</h2>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://asterix.com/wp-content/uploads/2018/03/carrousel-home-1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="shadow-box">
+                  <h5>Tiho Galsko selo</h5>
+                  <p>U ovom selu žive neustrašivi gali koji se opiru Rimu.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://guns2gewurztraminer.com/wp-content/uploads/2015/09/Untitled-1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="shadow-box">
+                  <h5>Druidska šuma</h5>
+                  <p>
+                    Ovo je sveta šuma i dozvoljen je ulaz samo najvećim druidima
+                    Galije.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.acs.psu.edu/drussell/Asterix/images/ArmyProcession-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="shadow-box">
+                  <h5>Rimski kamp</h5>
+                  <p>
+                    Ovdje žive hrabri Rimljani koji idu opet izgubiti bitku
+                    protiv gala .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="devider-bot"></div>
+    </div>
+    <footer>
+      <p>
+        Oprostitre za stranicu bilo mi je neugodno o sebi pisat pa sam napravio
+        za fiktivnog lika
+      </p>
+    </footer>
+  </body>
+</html>

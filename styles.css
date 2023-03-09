@@ -1,0 +1,81 @@
+.stranica {
+   background: #C7F9CC;
+}
+.container{
+    background-image: linear-gradient(#22577A,#38A3A5, #57CC99,#80ED99);
+    
+}
+footer{
+    background-color: #22577A;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+/*osobni kartica css*/
+.osobni-info{
+    background: #22577A;
+    border-radius: 20px;
+    padding:0;
+    margin-top:20px;
+}
+.osobni-info .avatar{
+    margin: 0;
+    padding: 0;
+}
+.osobni-info .avatar img{
+    margin: 10px;
+    border-radius: 20px 50px 50px 20px;
+}
+.osobni-info .lista-atributa{
+    padding: 0 0 0 60px;
+}
+
+/* seljani sekcija*/
+.friends img{
+    margin:auto;
+    width: 200px;
+    height: 200px;
+}
+.friends h2{
+    margin: 20px 0 0 0;
+}
+
+/*lokacije sekcija*/
+.lokacije img{
+    height: 550px;
+}
+.lokacije h2{
+    margin: 20px 0 20px 0;
+}
+
+/*dodatn za podešavanje */
+.bijeli{
+    color: #ffffff;
+    text-shadow: 1px 1px 5px black;
+}
+.devider-top{
+    padding: 10px;
+}
+.devider-bot{
+    padding: 25px;
+}
+.shadow-box{
+    background-color: rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    width: fit-content;
+    margin:auto;
+    padding: 0 5px;
+    
+}
+/*.circle{
+    border-radius: 50%;
+    background: rgba(4, 6, 4, 0.7);
+    border: 4px solid rgba(4, 6, 4, 0.12);
+    height: 40px;
+    width: 40px;
+}*/
+
